@@ -9,10 +9,12 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>CIBS - Codeigniter Bootstrap</title>
+    <title>CIBS - Codeigniter PHP Framework 3.x - Bootstrap Responsive Front-End Framework - Font Awesome</title>
 
     <!-- Bootstrap core CSS -->
     <link href="<?=base_url("assets/css/bootstrap.min.css"); ?>" rel="stylesheet">
+	<!-- Font-awesome  CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <!-- Custom styles for this template -->
     <link href="<?=base_url("assets/css/style.css"); ?>" rel="stylesheet">
@@ -68,16 +70,24 @@
     </nav>
 
     <div class="container">
+		<div class="row">
+			<div class="col-lg-9">
+				      <!-- Main component for a primary marketing message or call to action -->
+				      <div class="jumbotron">
+				        <h1>Font-awesome supported</h1>
+				        <p> You can download from <a href="https://github.com/egemenozkan/cibs" target="_blank"><i class="fa fa-github fa-6"></i></a></p>
+				        
+				        
+				      </div>
+			</div>
+			<div class="col-lg-3">
+					<div id="ads-booking_com" style="text-align: center;">
+						<iframe width="160" height="600" scrolling="no" frameborder="0" name="banner" target="_blank" 
+						src="https://www.booking.com?aid=345793;tmpl=banners;size=160x600;lang=en;target_aid=345793;theme=minimal;label=banner"></iframe>
+					</div>
+			</div>
+		</div>
 
-      <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <h1>Navbar example</h1>
-        <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-        <p>To see the difference between static and fixed top navbars, just scroll.</p>
-        <p>
-          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
-        </p>
-      </div>
 
     </div> <!-- /container -->
 
